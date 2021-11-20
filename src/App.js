@@ -14,6 +14,7 @@ function App() {
   };
   useEffect(() => {
     getMovies();
+    console.log("sa");
   }, []);
   return (
     <div>
